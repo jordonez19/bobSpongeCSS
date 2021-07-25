@@ -1,0 +1,455 @@
+body{
+    margin: 0;
+    padding: 25px;
+    background: rgb(0, 46, 63);
+}
+.css {
+    position: absolute;
+    color: #FFFF;
+    border: solid;
+    border-radius: 50%;
+    width: 6cm;
+    height: 5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    position: absolute;
+    font-size: 95px;
+    margin: 0;
+}
+
+.circle-2{
+    border: solid white 3px;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 92%;
+    left: 84%;
+
+}
+.circle-3{
+    border: solid white 3px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 104%;
+    left: 93%;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.face{
+background-color: rgb(255, 255, 41);
+width: 6cm;
+height: 6cm;
+position: relative;
+border: solid 3px;
+}
+
+.right-eye{
+    position: absolute;
+    background: #FFFF;
+    width: 85px;
+    height: 85px;
+    top: 15px;
+    left: 11%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px;
+
+
+}
+
+.left-eye{
+    position: absolute;
+    background: #FFFF;
+    width: 85px;
+    height: 85px;
+    top: 15px;
+    right: 10%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px;
+
+
+}
+
+.right-eye-blue{
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left-eye-blue{
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-eye-black{
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.left-eye-black{
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+
+.eyelashes-1{
+    position: absolute;
+    height: 8mm;
+    background: black;
+    border: solid 3px;
+    top: -16px;
+    left: 93px;
+    transform: rotate(22deg);
+
+
+}
+.eyelashes-2{
+    position: absolute;
+    height: 8mm;
+    background: black;
+    border: solid 3px;
+    top: -22px;
+    left: 68px;
+    transform: rotate( -2deg);
+
+
+}
+.eyelashes-3{
+    position: absolute;
+    height: 8mm;
+    background: black;
+    border: solid 3px;
+    top: -16px;
+    left: 47px;
+    transform: rotate( -25deg);
+}
+
+
+.eyelashes-4{
+    position: absolute;
+    height: 8mm;
+    background: black;
+    border: solid 3px;
+    top: -13px;
+    right: 39px;
+    transform: rotate(
+30deg
+);
+
+}
+.eyelashes-5{
+    position: absolute;
+    height: 8mm;
+    background: black;
+    border: solid 3px;
+    top: -21px;
+    right: 58px;
+    transform: rotate( 9deg);
+
+}
+.eyelashes-6{
+    position: absolute;
+    height: 8mm;
+    background: black;
+    border: solid 3px;
+    top: -18px;
+    right: 84px;
+    transform: rotate( -18deg);
+
+}
+
+.nose{
+    position: absolute;
+    background-color: rgba(243, 243, 32, 0.679);
+    border-radius: 50%;
+    width: 20px;
+    height: 30px;
+    border: solid 3px;
+    top: 82px;
+    left: 102px;
+}
+
+.nose-bottom{
+    position: absolute;
+    background-color: rgb(255, 255, 41);
+    width: 19px;
+    height: 14px;
+    top: 106px;
+    left: 102px;
+    border-radius: 50%;
+}
+
+.right{
+
+}
+
+.mouth{
+    position: absolute;
+    width: 43%;
+    height: 26%;
+    background: #5E2224;
+    border: solid 3px black;
+    top: 119px;
+    left: 26px;
+    border-radius: 50%;
+
+}
+
+.tongue{
+    position: absolute;
+    width: 17%;
+    height: 26%;
+    background: #c51d23;
+    top: 108px;
+    left: 64px;
+    clip-path: polygon(0 100%, 7% 82%, 18% 75%, 29% 77%, 38% 84%, 44% 90%, 49% 97%, 36% 76%, 50% 74%, 60% 76%, 72% 82%, 88% 90%, 99% 100%);
+}
+
+
+.tongue-bottom{
+    position: absolute;
+    width: 28%;
+    height: 31%;
+    background: #c51d23;
+    top: 149px;
+    left: 52px;
+    clip-path: ellipse(39% 43% at 49% 52%);
+    z-index: 1;
+    border-bottom: solid 3px;
+}
+
+
+.left-tooth{
+    position: inherit;
+    background: #FFFF;
+    width: 17px;
+    height: 16px;
+    top: 122px;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    left: 34%;
+    border-radius: 5px;
+
+}
+
+.right-tooth{
+    position: inherit;
+    background: #FFFF;
+    width: 17px;
+    height: 16px;
+    top: 103px;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    left: 25%;
+    border-radius: 5px;
+
+
+}
+
+.spit {
+    position: absolute;
+    background-color: rgb(35, 122, 151);
+    width: 50%;
+    height: 44%;
+    top: 262px;
+    clip-path: polygon(41% 71%, 34% 67%, 29% 59%, 30% 45%, 35% 24%, 39% 8%, 49% 50%, 50% 62%, 47% 68%);
+    left: 20px;
+    transform: rotate( 9deg);
+    opacity: 0.7;
+}
+
+.spit1{
+    position: absolute;
+    background-color: rgb(35, 122, 151);
+    width: 50%;
+    height: 50%;
+    clip-path: polygon(41% 71%, 34% 67%, 29% 59%, 30% 45%, 35% 24%, 39% 8%, 49% 50%, 50% 62%, 47% 68%);
+    top: 305px;
+    left: 45px;
+    opacity: 0.9;
+
+
+}
+
+.spit2 {
+    position: absolute;
+    background-color: rgb(35, 122, 151);
+    width: 50%;
+    height: 38%;
+    clip-path: polygon(41% 71%, 34% 67%, 29% 59%, 30% 45%, 35% 24%, 39% 8%, 49% 50%, 50% 62%, 47% 68%);
+    top: 245px;
+    left: 58px;
+    transform: rotate( -9deg);
+    opacity: 0.8;
+
+}
+
+
+.spit3 {
+    position: absolute;
+    background-color: lightblue;
+    width: 47%;
+    height: 44%;
+    top: 262px;
+    clip-path: polygon(41% 71%, 34% 67%, 29% 59%, 30% 45%, 35% 24%, 39% 8%, 49% 50%, 50% 62%, 47% 68%);
+    left: 19px;
+    transform: rotate( 14deg);
+    opacity: 0.7;
+}
+
+.spit4{
+    position: absolute;
+    background-color: lightblue;
+    width: 47%;
+    height: 50%;
+    clip-path: polygon(41% 71%, 34% 67%, 29% 59%, 30% 45%, 35% 24%, 39% 8%, 49% 50%, 50% 62%, 47% 68%);
+    top: 305px;
+    left: 45px;
+    transform: rotate( 4deg);
+    opacity: 0.9;
+
+
+}
+
+.spit5 {
+    position: absolute;
+    background-color: lightblue;
+    width: 47%;
+    height: 38%;
+    clip-path: polygon(41% 71%, 34% 67%, 29% 59%, 30% 45%, 35% 24%, 39% 8%, 49% 50%, 50% 62%, 47% 68%);
+    top: 245px;
+    left: 58px;
+    transform: rotate( -6deg);
+    opacity: 0.8;
+
+}
+
+.patch{
+    position: absolute;
+    background-color: rgb(96, 39, 41);
+    border-radius: 50%;
+    width: 30px;
+    height: 31px;
+    clip-path: ellipse(31% 40% at 50% 50%);
+    top: 13px;
+    opacity: 0.9;
+}
+
+.patch1{
+    position: absolute;
+    background-color: rgb(96, 39, 41);
+    border-radius: 50%;
+    width: 32px;
+    height: 31px;
+    clip-path: ellipse(31% 40% at 50% 50%);
+    top: 4cm;
+    right: 15px;
+    opacity: 0.9;
+}
+.patch2{
+    position: absolute;
+    background-color: rgb(96, 39, 41);
+    border-radius: 50%;
+    width: 36px;
+    height: 35px;
+    clip-path: ellipse(31% 40% at 50% 50%);
+    top: 5cm;
+    right: 6px;
+    opacity: 0.9;
+}
+.patch3{
+    position: absolute;
+    background-color: rgb(96, 39, 41);
+    border-radius: 50%;
+    width: 30px;
+    height: 29px;
+    clip-path: ellipse(31% 40% at 50% 50%);
+    top: 168px;
+    right: 45px;
+    opacity: 0.9;
+}
+
+
+.patch4{
+    position: absolute;
+    background-color: rgb(169, 73, 75);
+    border-radius: 50%;
+    width: 14px;
+    height: 16px;
+    clip-path: ellipse(31% 40% at 50% 50%);
+    top: 22px;
+    left: 8px;
+    opacity: 0.7;
+}
+
+.patch5{
+    position: absolute;
+    background-color: rgb(169, 73, 75);
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    clip-path: ellipse(31% 40% at 50% 50%);
+    top: 159px;
+    right: 22px;
+    opacity: 0.7;
+
+}
+.patch6{
+    position: absolute;
+    background-color: rgb(169, 73, 75);
+    border-radius: 50%;
+    width: 23px;
+    height: 26px;
+    clip-path: ellipse(31% 40% at 50% 50%);
+    top: 195px;
+    right: 12px;
+    opacity: 0.7;
+
+}
+.patch7{
+    position: absolute;
+    background-color: rgb(169, 73, 75);
+    border-radius: 50%;
+    width: 21px;
+    height: 20px;
+    clip-path: ellipse(31% 40% at 50% 50%);
+    top: 174px;
+    right: 49px;
+    opacity: 0.7;
+
+}
